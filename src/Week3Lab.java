@@ -144,7 +144,7 @@ public class Week3Lab {
 	public static int getSmallestNumber(int[] numbers) {
 		int smallest = numbers[0];
 		for (int number : numbers) {
-			if(number <smallest) {
+			if(number < smallest) {
 				smallest = number;
 			}
 		}
